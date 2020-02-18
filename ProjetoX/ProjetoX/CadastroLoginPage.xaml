@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ProjetoX.CadastroLoginPage">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Label Text="ID" x:Name="lblId" />
+            <Label Text="Email" />
+            <Entry Placeholder="Digite o Email" x:Name="txtEmail"/>
+            <Label Text="Senha" />
+            <Entry Placeholder="Digite a Senha" x:Name="txtSenha"/>
+            <Label Text="Nome" />
+            <Entry Placeholder="Digite o Nome" x:Name="txtNome"/>
+            
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Inserir" x:Name="btnInserir" Clicked="btnInserir_Clicked"/>
+                <Button Text="Deletar" x:Name="btnDeletar" Clicked="btnDeletar_Clicked"/>
+            </StackLayout>
+           
+
+        </StackLayout>
+       
+
+    </ContentPage.Content>
+</ContentPage>
